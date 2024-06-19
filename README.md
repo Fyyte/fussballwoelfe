@@ -1,3 +1,8 @@
+
+![desktop](https://github.com/Fyyte/fussballwoelfe/blob/main/desktop.png?raw=true)
+
+![mobile](https://github.com/Fyyte/fussballwoelfe/blob/main/mobile.png?raw=true)
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
@@ -18,12 +23,3 @@ npm run build
 ```
 
 You can preview the production build with `npm run preview`.
-
-## Deployment
-Edit .github/workflow/deploy.yml and replace `marduk` with new `appname`
-Dont forget to create new app with the same name in [caprover](https://captain.bleff.xyz/#/apps)
-Add caprover password to actions secrets
-```bash
-# /settings/secrets/actions
-CAPROVER_PASSWORD=****
-```
